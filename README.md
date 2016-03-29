@@ -60,19 +60,19 @@ root@nuc:~#
 
 ## Options
 
-`[-c]`		 enable community repo
+`[-c]`		 enable community repo.
 
-`[-d]`		 create docker image, will use `path` name for container
+`[-d]`		 create docker image, will use `path` name for container.
 
-`[-e]`		 enable edge version. Default is `latest-release`, ie stable one. Current `3.3`
+`[-e]`		 enable edge version. Default is `latest-release`, ie stable one.
 
-`[-h]`		 help
+`[-h]`		 help.
 
-`[-t]`		 enable testing repo. It will override to edge repo
+`[-t]`		 enable testing repo. It will override to edge version.
 
 ` -p <path>`	 chroot to be used. This will be created on current directory, and reused for next run. 
 
-`-v [<version>]` to override the version. Defaults to `latest-release`, this are Alpine linux optiones ie. edge, latest-release, 3.3, 3.2, etc
+`-v [<version>]` to override the version. Defaults to `latest-release`, this are Alpine linux optiones ie. edge, latest-release, 3.3, 3.2, etc.
 
-`[<package>]`	 list of packages to be installed, this are alpine package names
+`[<package>]`	 list of packages to be installed, this are alpine package names.
 
