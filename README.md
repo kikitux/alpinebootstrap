@@ -10,6 +10,11 @@ Alpine linux use `apk` for package management.
 
 We leverage on this to create a `chroot` and optionally create a docker image.
 
+## Requirements
+
+- Linux
+- Docker if using `-d` option
+
 ## Demo time
 
 ### go1.5
@@ -23,6 +28,11 @@ go
 
 root@nuc:~# docker run --rm -i alpine-go15 go version
 go version go1.5.3 linux/amd64
+root@nuc:~# 
+
+root@nuc:~# docker images alpine-go15
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+alpine-go15         latest              4ca8a461be9b        4 seconds ago       179.5 MB
 root@nuc:~# 
 ```
 
@@ -39,6 +49,11 @@ go
 
 root@nuc:~# docker run --rm -i alpine-go16 go version
 go version go1.6 linux/amd64
+root@nuc:~# 
+
+root@nuc:~# docker images alpine-go16
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+alpine-go16         latest              26d9a2d01bad        6 seconds ago       192.5 MB
 root@nuc:~# 
 ```
 
